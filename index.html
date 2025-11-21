@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Andrés López - Producción de Eventos</title>
 </head>
@@ -37,6 +37,9 @@
     </div>
 
     <section class="home" id="home">
+        <video autoplay muted loop playsinline class="bg-video">
+            <source src="assets/bg-vid.mp4" type="video/mp4">
+        </video>
         <div class="home-info">
             <h1 data-i18n="home_title">Andrés López</h1>
             <h2>
@@ -69,7 +72,7 @@
 
     <section class="about" id="about">
       <div class="about-img">
-        <img src="assets/profileLogoA.png" alt="profile" />
+        <img src="assets/logoprofileap.png" alt="profile" />
       </div>
       <div class="about-content">
         <h2 class="heading" data-i18n="about_title">Sobre <span class="bg-gradient-1">Nosotros</span></h2>
@@ -86,7 +89,7 @@
   <h2 class="heading" data-i18n="projects_title">Nuestros <span class="bg-gradient-1">Eventos</span></h2>
       <div class="projects-box">
         <div class="project-card">
-          <img src="/assets/banner1v2.webp" alt="eventos sociales">
+          <img src="/assets/banner1ap.webp" alt="eventos sociales">
           <h3 data-i18n="project1_title">Eventos Sociales</h3>
           <p data-i18n="project1_desc">
             Matrimonios, cumpleaños y celebraciones especiales con la mejor ambientación y equipamiento.
@@ -94,7 +97,7 @@
           <a href="https://wa.me/573124324340" target="_blank" data-i18n="project1_link">Cotizar</a>
         </div>
         <div class="project-card">
-          <img src="/assets/banner2v2.webp" alt="eventos corporativos">
+          <img src="/assets/banner2ap.webp" alt="eventos corporativos">
           <h3 data-i18n="project2_title">Eventos Corporativos</h3>
           <p data-i18n="project2_desc">
             Congresos, lanzamientos de producto y reuniones corporativas de gran escala.
@@ -102,7 +105,7 @@
           <a href="https://wa.me/573124324340" data-i18n="project2_link">Cotizar</a>
         </div>
         <div class="project-card">
-            <img src="/assets/banner-Photoroom.png" alt="equipamiento">
+            <img src="/assets/banner3ap.webp" alt="equipamiento">
             <h3 data-i18n="project3_title">Equipamiento Completo</h3>
             <p data-i18n="project3_desc">
               Sonido, luces, estructuras, tarimas y carpas para cualquier tipo de evento.
@@ -157,12 +160,6 @@
           <span class="tag-contact" data-i18n="contact_phone">312 432 4340</span>
         </li>
         <li>
-          <a href="mailto:contacto@andreslopez.com">
-            <i class='bx bx-envelope'></i>
-          </a>
-          <span class="tag-contact" data-i18n="contact_email">contacto@andreslopez.com</span>
-        </li>
-        <li>
           <a href="https://instagram.com/andreslopezhd" target="_blank">
             <i class='bx bxl-instagram'></i>
           </a>
@@ -170,12 +167,9 @@
         </li>
       </ul>
     </div>
-<form id="contact-form" class="contact-form">
-  <input type="text" name="name" placeholder="Your Name" class="input" required data-i18n-placeholder="form_name" />
-  <input type="email" name="email" placeholder="Your Email" class="input" required data-i18n-placeholder="form_email" />
-  <textarea name="message" placeholder="Your Message" class="textarea" required data-i18n-placeholder="form_message"></textarea>
-  <button type="submit" class="btn" data-i18n="form_send">Send Message</button>
-</form>
+    <div class="contact-logo">
+      <img src="assets/logoprofileap.png" alt="Andrés López Logo" />
+    </div>
   </div>
     </section>
 
@@ -244,7 +238,7 @@
           form_message: "Your Message",
           form_send: "Send Message",
 
-          footer_copy: "© Andrés López Event Production 2025"
+          footer_copy: "© Sistemas NFC 2025"
         },
      es: {
         nav_home: "Inicio",
@@ -301,7 +295,7 @@
         form_message: "Tu Mensaje",
         form_send: "Enviar Mensaje",
 
-        footer_copy: "© Andrés López Producción de Eventos 2025"
+        footer_copy: "© Sistemas NFC 2025"
       }
 
     };
