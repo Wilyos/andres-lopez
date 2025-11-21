@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Andrés López - Producción de Eventos</title>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="logo">Portfolio</a>
+    <div class="menu-icon" id="menu-icon">
+      <i class='bx bx-menu'></i>
+    </div>
+    <ul>
+      <li><a href="#home" data-i18n="nav_home">Home</a></li>
+      <li><a href="#about" data-i18n="nav_about">About</a></li>
+      <li><a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a></li>
+      <li><a href="#service" data-i18n="nav_service">Service</a></li>
+      <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+    </ul>
+    <button id="lang-toggle" class="lang-btn">
+      <img id="lang-flag" src="assets/En.png" alt="Idioma" style="height: 2.2em; width: auto; vertical-align: middle;" />
+    </button>
+  </nav>
+
+    <div class="bars-animation">
+            <div class="bar" style="--i:6;"></div>
+            <div class="bar" style="--i:5;"></div>
+            <div class="bar" style="--i:4;"></div>
+            <div class="bar" style="--i:3;"></div>
+            <div class="bar" style="--i:2;"></div>
+            <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <section class="home" id="home">
+        <div class="home-info">
+            <h1 data-i18n="home_title">Andrés López</h1>
+            <h2>
+                <span data-i18n="home_we_are" class="static-span">Especialistas en</span>
+                <span style="--i:2" data-i18n="home_span1" data-text="Producción de Eventos" class="animated-span">Producción de Eventos</span>
+                <span style="--i:1" data-i18n="home_span2" data-text="Logística Integral" class="animated-span">Logística Integral</span>
+            </h2>
+            <p data-i18n="home_desc">
+              Precio, calidad y cumplimiento</p>
+            <div class="btn-sci">
+        <a href="#" class="btn" data-i18n="home_save_contact">Save Contact</a>
+        <div class="sci">
+          <a href="https://wa.me/573124324340" target="_blank" title="Enviar WhatsApp">
+            <i class='bx bxl-whatsapp' ></i>
+          </a>
+          <a href="https://instagram.com/andreslopezhd" target="_blank">
+            <i class='bx bxl-instagram'></i>
+          </a>
+        </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="/assets/profileAndres.png" alt="logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="assets/profileLogoA.png" alt="profile" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading" data-i18n="about_title">Sobre <span class="bg-gradient-1">Nosotros</span></h2>
+        <p data-i18n="about_desc">
+          Andrés López Producción de Eventos es una empresa con sede en Medellín especializada en la logística y servicios técnicos integrales para todo tipo de eventos. Nuestro enfoque principal es proveer las soluciones físicas y de set-up necesarias para hacer de tu evento una experiencia inolvidable.
+        </p>
+        <a href="#contact">
+          <button class="btn" data-i18n="about_btn">Contáctanos</button>
+        </a>
+      </div>
+    </section>
+
+    <section id="portfolio" class="projects">
+  <h2 class="heading" data-i18n="projects_title">Nuestros <span class="bg-gradient-1">Eventos</span></h2>
+      <div class="projects-box">
+        <div class="project-card">
+          <img src="/assets/banner1v2.webp" alt="eventos sociales">
+          <h3 data-i18n="project1_title">Eventos Sociales</h3>
+          <p data-i18n="project1_desc">
+            Matrimonios, cumpleaños y celebraciones especiales con la mejor ambientación y equipamiento.
+          </p>
+          <a href="https://wa.me/573124324340" target="_blank" data-i18n="project1_link">Cotizar</a>
+        </div>
+        <div class="project-card">
+          <img src="/assets/banner2v2.webp" alt="eventos corporativos">
+          <h3 data-i18n="project2_title">Eventos Corporativos</h3>
+          <p data-i18n="project2_desc">
+            Congresos, lanzamientos de producto y reuniones corporativas de gran escala.
+          </p>
+          <a href="https://wa.me/573124324340" data-i18n="project2_link">Cotizar</a>
+        </div>
+        <div class="project-card">
+            <img src="/assets/banner-Photoroom.png" alt="equipamiento">
+            <h3 data-i18n="project3_title">Equipamiento Completo</h3>
+            <p data-i18n="project3_desc">
+              Sonido, luces, estructuras, tarimas y carpas para cualquier tipo de evento.
+            </p>
+            <a href="https://wa.me/573124324340" data-i18n="project3_link">Cotizar</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="service">
+  <h2 class="heading" data-i18n="services_title">Nuestros Servicios</h2>
+      <div class="services-container">
+          <div class="service-box">
+            <div class="service-info">
+              <i class='bx bx-music'></i>
+              <h4 data-i18n="service1_title">Minitecas y DJs</h4>
+              <p data-i18n="service1_desc">
+                Alquiler de minitecas profesionales y servicios de DJs para amenizar tu evento.
+              </p>
+            </div>
+          </div>
+          <div class="service-box">
+            <div class="service-info">
+                <i class='bx bx-bulb'></i>
+                <h4 data-i18n="service2_title">Sonido e Iluminación</h4>
+                <p data-i18n="service2_desc">
+                 Equipos de sonido profesional y sistemas de iluminación para crear la atmósfera perfecta.
+                </p>
+            </div>
+          </div>
+           <div class="service-box">
+            <div class="service-info">
+                <i class='bx bx-buildings' ></i>
+                <h4 data-i18n="service3_title">Estructuras y Logística</h4>
+                <p data-i18n="service3_desc">
+                  Suministro de truss, tarimas, carpas y toda la infraestructura necesaria para tu evento.
+                </p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+  <h2 class="heading" data-i18n="contact_title">Contáctanos <span class="bg-gradient-1">Ahora</span></h2>
+  <div class="contact-content">
+    <div class="social-icons">
+      <ul>
+        <li>
+          <a href="https://wa.me/573124324340" target="_blank" title="Enviar WhatsApp">
+            <i class='bx bxl-whatsapp' ></i>
+          </a>
+          <span class="tag-contact" data-i18n="contact_phone">312 432 4340</span>
+        </li>
+        <li>
+          <a href="mailto:contacto@andreslopez.com">
+            <i class='bx bx-envelope'></i>
+          </a>
+          <span class="tag-contact" data-i18n="contact_email">contacto@andreslopez.com</span>
+        </li>
+        <li>
+          <a href="https://instagram.com/andreslopezhd" target="_blank">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <span class="tag-contact" data-i18n="contact_instagram">@andreslopezhd</span>
+        </li>
+      </ul>
+    </div>
+<form id="contact-form" class="contact-form">
+  <input type="text" name="name" placeholder="Your Name" class="input" required data-i18n-placeholder="form_name" />
+  <input type="email" name="email" placeholder="Your Email" class="input" required data-i18n-placeholder="form_email" />
+  <textarea name="message" placeholder="Your Message" class="textarea" required data-i18n-placeholder="form_message"></textarea>
+  <button type="submit" class="btn" data-i18n="form_send">Send Message</button>
+</form>
+  </div>
+    </section>
+
+    <footer class="footer">
+  <p class="copyright" data-i18n="footer_copy">&copy; Andrés López Producción de Eventos 2025</p>
+    </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    //traslates const
+    const translations = {
+      en: {
+          nav_home: "Home",
+          nav_about: "About",
+          nav_portfolio: "Events",
+          nav_service: "Services",
+          nav_contact: "Contact",
+
+          home_title: "Andrés López",
+          home_we_are: "I am",
+          home_span1: "Event Production",
+          home_span2: "Comprehensive Logistics",
+          home_desc: "Price, quality and commitment",
+          home_save_contact: "Save Contact",
+
+          about_title: "About <span class='bg-gradient-1'>Us</span>",
+          about_desc: "Andrés López Event Production is a Medellín-based company specializing in logistics and comprehensive technical services for all types of events. Our main focus is to provide the physical and set-up solutions necessary to make your event an unforgettable experience.",
+          about_btn: "Contact Us",
+
+          projects_title: "Our <span class='bg-gradient-1'>Events</span>",
+          project1_title: "Social Events",
+          project1_desc: "Weddings, birthdays and special celebrations with the best atmosphere and equipment.",
+          project1_img: "fitline.jpg",
+          project1_link: "Get Quote",
+
+          project2_title: "Corporate Events",
+          project2_desc: "Congresses, product launches and large-scale corporate meetings.",
+          project2_img: "iml.jpg",
+          project2_link: "Get Quote",
+
+          project3_title: "Complete Equipment",
+          project3_desc: "Sound, lights, structures, stages and tents for any type of event.",
+          project3_img: "celion.jpg",
+          project3_link: "Get Quote",
+
+          services_title: "Our Services",
+          service1_title: "Mini Sound Systems and DJs",
+          service1_desc: "Professional mini sound system rental and DJ services to liven up your event.",
+          service2_title: "Sound & Lighting",
+          service2_desc: "Professional sound equipment and lighting systems to create the perfect atmosphere.",
+          service3_title: "Structures & Logistics",
+          service3_desc: "Supply of truss, stages, tents and all the necessary infrastructure for your event.",
+          service4_title: "Work with Me at Celion",
+          service4_desc: "Opportunities to grow alongside a brand that inspires health, discipline, and results.",
+
+          contact_title: "Contact <span class='bg-gradient-1'>Us Now</span>",
+          contact_phone: "+57 312 432 4340",
+          contact_email: "contacto@andreslopez.com",
+          contact_web: "andreslopez.com",
+          contact_instagram: "@andreslopezhd",
+
+          form_name: "Your Name",
+          form_email: "Your Email",
+          form_message: "Your Message",
+          form_send: "Send Message",
+
+          footer_copy: "© Andrés López Event Production 2025"
+        },
+     es: {
+        nav_home: "Inicio",
+        nav_about: "Acerca",
+        nav_portfolio: "Eventos",
+        nav_service: "Servicios",
+        nav_contact: "Contacto",
+
+        home_title: "Andrés López",
+        home_we_are: "Soy",
+        home_span1: "Productor de Eventos",
+        home_span2: "Especialista en Logística",
+        home_desc: "Precio, calidad y cumplimiento",
+        home_save_contact: "Guardar contacto",
+
+        about_title: "Sobre <span class='bg-gradient-1'>Nosotros</span>",
+        about_desc: "Andrés López Producción de Eventos es una empresa con sede en Medellín especializada en la logística y servicios técnicos integrales para todo tipo de eventos. Nuestro enfoque principal es proveer las soluciones físicas y de set-up necesarias para hacer de tu evento una experiencia inolvidable.",
+        about_btn: "Contáctanos",
+
+        projects_title: "Nuestros <span class='bg-gradient-1'>Eventos</span>",
+        project1_title: "Eventos Sociales",
+        project1_desc: "Matrimonios, cumpleaños y celebraciones especiales con la mejor ambientación y equipamiento.",
+        project1_img: "fitline.jpg",
+        project1_link: "Cotizar",
+
+        project2_title: "Eventos Corporativos",
+        project2_desc: "Congresos, lanzamientos de producto y reuniones corporativas de gran escala.",
+        project2_img: "iml.jpg",
+        project2_link: "Cotizar",
+
+        project3_title: "Equipamiento Completo",
+        project3_desc: "Sonido, luces, estructuras, tarimas y carpas para cualquier tipo de evento.",
+        project3_img: "celion.jpg",
+        project3_link: "Cotizar",
+
+        services_title: "Nuestros Servicios",
+        service1_title: "Minitecas y DJs",
+        service1_desc: "Alquiler de minitecas profesionales y servicios de DJs para amenizar tu evento.",
+        service2_title: "Sonido e Iluminación",
+        service2_desc: "Equipos de sonido profesional y sistemas de iluminación para crear la atmósfera perfecta.",
+        service3_title: "Estructuras y Logística",
+        service3_desc: "Suministro de truss, tarimas, carpas y toda la infraestructura necesaria para tu evento.",
+        service4_title: "Trabaja conmigo en Celion",
+        service4_desc: "Acompañamiento para crecer junto a una marca que inspira salud, disciplina y resultados.",
+
+        contact_title: "Contáctanos <span class='bg-gradient-1'>Ahora</span>",
+        contact_phone: "312 432 4340",
+        contact_email: "contacto@andreslopez.com",
+        contact_web: "andreslopez.com",
+        contact_instagram: "@andreslopezhd",
+
+        form_name: "Tu Nombre",
+        form_email: "Tu Correo",
+        form_message: "Tu Mensaje",
+        form_send: "Enviar Mensaje",
+
+        footer_copy: "© Andrés López Producción de Eventos 2025"
+      }
+
+    };
+
+  let currentLang = 'es';
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang][key]) {
+          // Si es un span animado, actualiza también el data-text
+          if (el.hasAttribute('data-text')) {
+            el.setAttribute('data-text', translations[lang][key]);
+            el.textContent = translations[lang][key];
+          } else if (key.includes('title') || key.includes('projects_title') || key.includes('about_title') || key.includes('contact_title')) {
+            el.innerHTML = translations[lang][key];
+          } else {
+            el.textContent = translations[lang][key];
+          }
+        }
+      });
+      // Traducción de placeholders
+      document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-i18n-placeholder');
+        if (translations[lang][key]) {
+          el.placeholder = translations[lang][key];
+        }
+      });
+      const flagImg = document.getElementById('lang-flag');
+      if (flagImg) {
+        flagImg.src = lang === 'en' ? 'assets/En.png' : 'assets/Es.png';
+        flagImg.alt = lang === 'en' ? 'Español' : 'English';
+      }
+    }
+
+    document.getElementById('lang-toggle').addEventListener('click', function() {
+      setLanguage(currentLang === 'en' ? 'es' : 'en');
+    });
+
+    // Inicializa en inglés
+  setLanguage('es');
+</script>
+
+</body>
+</html>
